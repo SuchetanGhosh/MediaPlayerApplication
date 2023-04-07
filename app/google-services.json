@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168207345970",
+    "firebase_url": "https://madproject-43476-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "madproject-43476",
+    "storage_bucket": "madproject-43476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168207345970:android:3fdc9277d7967216160f2b",
+        "android_client_info": {
+          "package_name": "com.example.mediaplayerapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168207345970-g7rqfod39bij9bga2h9h1c9cido0t6en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmgm1MOJkbvumorthX7SOU1lAR4AlQIs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168207345970-g7rqfod39bij9bga2h9h1c9cido0t6en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

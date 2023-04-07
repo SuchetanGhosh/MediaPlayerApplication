@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="12dp"
+    android:paddingEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songNameClicker"
+        android:layout_toStartOf="@+id/threeDot"
+        android:paddingStart="15dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/songName"
+            android:text="Playlist Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#AF69ED"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/artist"
+            android:text="Artist Name"
+            android:layout_below="@+id/songName"
+            android:textSize="20sp"
+            android:textColor="#9866C7"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/threeDot"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_menu_dot"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
