@@ -182,6 +182,8 @@ public class PlaySongActivity extends AppCompatActivity {
 
             if (song.isPlaying()){
                 song.stop();
+            } else {
+                btnMain.setImageResource(R.drawable.baseline_pause_24);
             }
             song.reset();
             song.release();
@@ -207,6 +209,7 @@ public class PlaySongActivity extends AppCompatActivity {
                 });
                 seekBar.setProgress(0);
                 seekBar.setMax(song.getDuration());
+
                 song.start();
             } catch (Exception e){
                 e.printStackTrace();
